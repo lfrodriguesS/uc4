@@ -1,0 +1,22 @@
+#include<stdio.h>///biblioteca 
+
+int main(){ ///função 
+
+      char nome;///Variáveis char, float, int
+      float idade; 
+      int  year = 18;
+      /// construção 
+       printf("Digite seu nome:\n");
+       scanf("%c\n",&nome); 
+       printf("Digite  sua idade:\n");   
+       scanf("%f\n",&idade); 
+       
+       ///Condição
+       if(nome >= 18){
+          printf("Entrada liberada");
+        }else{ 
+           printf("entrada negada");
+           } 
+       return 0;
+      
+ }
